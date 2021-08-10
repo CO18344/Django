@@ -1,0 +1,15 @@
+{% extends 'codeRS/form-starter.html' %}
+
+{% block title %}sign{% endblock title %}
+{% block hit %}/sign/{% endblock hit %}
+
+{% block form_heading %}Sign Up{% endblock form_heading %}
+
+{% block start %}
+    <div class="form-floating mb-2">
+      <input type="text" class="form-control" id="id_name" name='name' placeholder="name@example.com" required>
+      <label for="id_name">First & Last Name</label>
+    </div>
+{% endblock start %}
+
+{% block submit %}Create Account{% endblock submit %}
